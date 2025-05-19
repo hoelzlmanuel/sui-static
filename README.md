@@ -25,4 +25,4 @@ If you want to add or customize color themes, you can do so in the `assets/js/th
 <div id="modal-theme">
 ```
 
-You might want to add/update the according theme in under `/* THEMING */` in `assets/css/styles.css`. This is only used to style the theme selection buttons.
+You might want to add/update the according theme under `/* THEMING */` in `assets/css/styles.css`. This is only used to style the theme selection buttons.
