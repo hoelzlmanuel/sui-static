@@ -26,6 +26,14 @@ const setTheme = options => {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    if (localStorage.getItem('color-background') === null) {
+        setTheme({
+            'color-background': '#ffffff',
+            'color-text-pri': '#222222',
+            'color-text-acc': '#5c5c5c'
+        });
+        return;
+    }
     setValueFromLocalStorage('color-background');
     setValueFromLocalStorage('color-text-pri');
     setValueFromLocalStorage('color-text-acc');
@@ -90,7 +98,7 @@ for (let i = 0; i < dataThemeButtons.length; i++) {
                 setTheme({
                     'color-background': '#ffffff',
                     'color-text-pri': '#222222',
-                    'color-text-acc': '#dddddd'
+                    'color-text-acc': '#5c5c5c'
                 });
                 return;
 

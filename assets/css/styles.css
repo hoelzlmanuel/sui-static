@@ -60,13 +60,13 @@ h2{
 
 h3{
 	font-size: 20px;
-	font-weight: 900;
+	font-weight: 800;
 	height: 10px;
 }
 
 h4{
 	font-size: 1.1em;
-	font-weight: 400;
+	font-weight: 700;
 	height: 10px;
 }
 
@@ -93,8 +93,8 @@ input{
 	border: 0;
 	border-bottom: thin solid var(--color-text-acc);
 	color: var(--color-text-pri);
-	font-size: 0.8em;
-	height: 3.5em;
+	font-size: 1.5em;
+	height: 1.75em;
 	transition: all 0.4s ease;
 	width: 100%;
 }
@@ -383,6 +383,12 @@ table a{
 	line-height: 3em;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+.theme-white{
+	background-color: #ffffff;
+	border: 4px solid #5c5c5c;
+    color: #222222;
 }
 
 .theme-blackboard{
