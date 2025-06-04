@@ -13,7 +13,7 @@ Just clone it and set index.html as your new tab page.
 
 Go to `assets/js/data.js` and edit the dictionary called `data`.
 
-Please note that you don't need `http://` in the URL. You can find the names of icons to use at [Material Design Icons](https://materialdesignicons.com/).
+You can find the names of icons to use at [Material Design Icons](https://materialdesignicons.com/).
 
 ### How do I customize the color themes?
 
